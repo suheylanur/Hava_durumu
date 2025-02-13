@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>  hava durumu uygulaması </title>
+  <script src="https://unpkg.com/feather-icons"></script><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<div class="container">
+  <div class="weather-side">
+    <div class="weather-gradient"></div>
+    <div class="date-container">
+      <h2 class="date-dayname">ÇARŞAMBA</h2><span class="date-day">7 Şubat 2024</span><i class="location-icon" data-feather="map-pin"></i><span class="location">Merkez ,Isp</span>
+    </div>
+    <div class="weather-container"><i class="weather-icon" data-feather="cloud"></i>
+      <h1 class="weather-temp">12°</h1>
+      <h3 class="weather-desc">Bulutlu</h3>
+    </div>
+  </div>
+  <div class="info-side">
+    <div class="today-info-container">
+      <div class="today-info">
+        <div class="precipitation"> <span class="title">Yağış</span><span class="value">0 %</span>
+          <div class="clear"></div>
+        </div>
+        <div class="humidity"> <span class="title">Nem</span><span class="value">56 %</span>
+          <div class="clear"></div>
+        </div>
+        <div class="wind"> <span class="title">
+          Rüzgar</span><span class="value">18 km/h</span>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="week-container">
+      <ul class="week-list">
+        <li class="active"><i class="day-icon" data-feather="cloud"></i><span class="day-name">Per</span><span class="day-temp"> 9°C</span></li>
+        <li><i class="day-icon" data-feather="cloud"></i><span class="day-name">Cum</span><span class="day-temp"> 8°C</span></li>
+        <li><i class="day-icon" data-feather="cloud"></i><span class="day-name">Cmt</span><span class="day-temp"> 10°C</span></li>
+        <li><i class="day-icon" data-feather="cloud"></i><span class="day-name">Paz</span><span class="day-temp"> 9°C</span></li>
+        <div class="clear"></div>
+      </ul>
+    </div>
+    <div class="location-container">
+      <button class="location-button"> <i data-feather="map-pin"></i><span>Konum Değiştir</span></button>
+    </div>
+  </div>
+</div>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
